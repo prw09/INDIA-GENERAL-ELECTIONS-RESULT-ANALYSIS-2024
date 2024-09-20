@@ -1,14 +1,14 @@
 
 -- 1 . Total Seats in India ?
 
---SELECT COUNT(parliament_constituency) AS Total_Seats
---FROM constituencywise_results
+SELECT COUNT(parliament_constituency) AS Total_Seats
+FROM constituencywise_results
 
 -- 2 . What are the total number of seats avaliable for elections in each state ?
 
 -- SELECT * FROM states 
 
-/*
+
 SELECT 
     s.state AS State_name, 
     COUNT(cr.parliament_constituency) AS Total_Seats 
@@ -20,19 +20,19 @@ INNER JOIN states s
     ON s.state_id = sr.state_id 
 GROUP BY s.state
 
-*/
+
 
 -- 3 .  Total seats won by nda alliance ? 
 
--- SELECT * FROM partywise_results 
+SELECT * FROM partywise_results 
 
--- SELECT DISTINCT COUNT(party) FROM partywise_results
--- GROUP BY 
+SELECT DISTINCT COUNT(party) FROM partywise_results
+GROUP BY 
 
--- SELECT DISTINCT COUNT(winner) FROM statewise_results
+SELECT DISTINCT COUNT(winner) FROM statewise_results
 
 
-/*
+
 SELECT 
     SUM([Won]) AS NDA_Total_Seats_Won
 FROM 
@@ -55,9 +55,9 @@ WHERE
         'Sikkim Krantikari Morcha - SKM'
     );
 
-	*/
+	
 
-/*
+
 
 -- 4 . Seats won by nda alliance party ? 
 
@@ -85,11 +85,11 @@ WHERE
     )
 ORDER BY Seats_Won DESC
 
-*/
+
 
 -- 5 . Seats won by India alliance party ?  
 
-/*
+
 SELECT 
     SUM([Won]) AS INDIA_Total_Seats_Won
 FROM 
@@ -119,9 +119,9 @@ WHERE
                 'Viduthalai Chiruthaigal Katchi - VCK'
 )
 
-*/
 
-/*
+
+
 -- 6 . Seat won by India alliance parties ? 
 
 SELECT 
@@ -154,7 +154,7 @@ WHERE
     )
 order by
     party;
-*/
+
 
 
 -- 7 . Add new column field in table partywise_results to get the Party Allianz as NDA, I.N.D.I.A and OTHER
