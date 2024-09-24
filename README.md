@@ -95,6 +95,6 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 
 ## **Contributors**
 - **Piyush Wandile**  
-  (Feel free to add other contributors if necessary)
+  (Feel free to contribute if necessary)
   
 ---
