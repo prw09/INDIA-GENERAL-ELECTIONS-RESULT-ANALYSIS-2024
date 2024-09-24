@@ -96,13 +96,5 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 ## **Contributors**
 - **Piyush Wandile**  
   (Feel free to add other contributors if necessary)
-
+  
 ---
-
-## **Future Enhancements**
-- **Data Visualization**: Using Power BI or Tableau to visualize seat distribution, voting trends, and party performance.
-- **Predictive Analysis**: Using machine learning to predict future election outcomes based on historical data trends.
-
----
-
-This README enhances the professionalism and utility of your project, making it presentable and easy to understand for users, recruiters, or collaborators. It highlights your SQL and data analysis skills while making the project look impactful and relevant.
