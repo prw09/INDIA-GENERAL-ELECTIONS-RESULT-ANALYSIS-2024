@@ -37,7 +37,7 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 ---
 
 ## **Technologies Used**
-- **Database Management System**: MySQL
+- **Database Management System**: Microsoft Sql Server 
 - **Concepts Utilized**:
   - SQL **JOINs** for linking multiple tables.
   - **Aggregation Functions** like `SUM`, `COUNT`, and `MAX`.
@@ -68,7 +68,7 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 
 ## **Usage Instructions**
 1. **Set Up Database**:
-   - Import the SQL schema and dataset provided in the repository into your MySQL database.
+   - Import the SQL schema and dataset provided in the repository into your Microsoft Sql Server database.
    
 2. **Run Queries**:
    - Execute the SQL queries to extract the insights. Queries are designed to be modular, allowing for custom filters based on states, constituencies, or alliances.
@@ -94,7 +94,7 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 ---
 
 ## **Contributors**
-- **Your Name**  
+- **Piyush Wandile**  
   (Feel free to add other contributors if necessary)
 
 ---
