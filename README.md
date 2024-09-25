@@ -1,5 +1,3 @@
----
-
 📊 **India Elections 2024 - SQL Analysis**
 
 🚀 **Project Overview**  
@@ -90,4 +88,3 @@ The analysis is built upon multiple SQL queries that examine key areas of electi
 Piyush Wandile  
 (Feel free to contribute if necessary)
 
----
