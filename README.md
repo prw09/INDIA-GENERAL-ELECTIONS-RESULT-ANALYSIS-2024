@@ -1,4 +1,4 @@
-📊 **India Elections 2024 - SQL Analysis**
+#📊 **India Elections 2024 - SQL Analysis**
 
 🚀 **Project Overview**  
 This project offers an in-depth analysis of the India Elections 2024 using SQL queries. The analysis spans multiple aspects of the election data, focusing on constituency-level and state-level results, party performance, and voting trends. Through a series of optimized SQL queries, the project provides a detailed breakdown of seats won, party alliances, candidate performances, and vote distribution (EVM and postal).
