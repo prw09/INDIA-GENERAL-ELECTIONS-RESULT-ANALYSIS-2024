@@ -26,7 +26,7 @@ The data and queries help identify winning trends and offer insights into how ma
   - Explore the voting trends to understand differences in candidate support through EVM and postal votes.
 
 📁 **Project Structure**  
-The analysis is built upon multiple SQL queries that examine key areas of election data:
+- The analysis is built upon multiple SQL queries that examine key areas of election data:
 
 - **Constituency-wise Results**: Information on winning candidates, parties, and vote counts.
 - **State-wise Results**: Aggregated results for each state, showing the total seats won by parties.
